@@ -17,8 +17,7 @@ moving from a broken no-code connector to a working custom OAuth flow.
 ## 🖥️ Live Agent
 
 > Natural-language patient intake with silent lead classification, deployed as a conversational agent.
-
-**[Try the live agent →](your-agent-link-here)**  
+ 
 **[Watch the demo (Loom) →](your-loom-link-here)**
 
 ---
