@@ -14,6 +14,58 @@ moving from a broken no-code connector to a working custom OAuth flow.
 
 ---
 
+Got it — plain markdown image syntax instead of HTML tags. Here's the same README with that swapped in:
+
+markdown
+# 🦷 Apex Dental Care: Guardrailed Conversational AI Agent
+
+An end-to-end conversational AI Agent built on TARS that handles patient intake, appointment 
+booking, and lead qualification for a fictional multi-location dental clinic — with hard safety 
+guardrails and a custom Salesforce CRM integration.
+
+This project tackles the challenge of building a healthcare-facing AI agent that stays useful and 
+natural in conversation while never crossing into unsafe territory — no diagnosis, no medical 
+advice, and automatic redirection to emergency care when a genuine dental emergency is detected. 
+On the backend, it demonstrates root-cause debugging of a real-world CRM integration failure, 
+moving from a broken no-code connector to a working custom OAuth flow.
+
+`TARS` `AI Agent` `Conversational AI` `Salesforce API` `OAuth 2.0` `Lead Scoring` `Guardrails`
+
+---
+
+## 🖥️ Live Agent
+
+> Natural-language patient intake with silent lead classification, deployed as a conversational agent.
+
+**[Try the live agent →](your-agent-link-here)**  
+**[Watch the demo (Loom) →](your-loom-link-here)**
+
+---
+
+## 🧠 How It Works
+
+The agent runs on a single self-looping **AI Agent** node governed by a structured three-part 
+system prompt:
+
+| Component | Purpose |
+|---|---|
+| **Persona** | Embedded knowledge base — locations, hours, services, insurance, pricing |
+| **Instructions** | New vs. existing patient handling, one-field-at-a-time appointment collection, silent lead classification |
+| **Constraints** | Hard safety rules — no diagnosis, no medication advice, no claiming access to medical records, nothing invented outside the knowledge base |
+
+Rather than a rigid decision tree, the agent uses natural language understanding — so a message 
+like *"I'm visiting for the first time actually"* is correctly understood as new-patient intent 
+without needing an exact keyword or button click.
+
+![TARS canvas flow diagram](assets/screenshots/flow-diagram.png)
+
+---
+
+## 💬 Sample Conversation
+
+![Sample conversation with the AI Agent](assets/screenshots/chat.png)
+
+
 ## 🖥️ Live Agent
 
 > Natural-language patient intake with silent lead classification, deployed as a conversational agent.
