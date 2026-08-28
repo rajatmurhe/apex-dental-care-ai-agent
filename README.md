@@ -14,25 +14,6 @@ moving from a broken no-code connector to a working custom OAuth flow.
 
 ---
 
-Got it — plain markdown image syntax instead of HTML tags. Here's the same README with that swapped in:
-
-markdown
-# 🦷 Apex Dental Care: Guardrailed Conversational AI Agent
-
-An end-to-end conversational AI Agent built on TARS that handles patient intake, appointment 
-booking, and lead qualification for a fictional multi-location dental clinic — with hard safety 
-guardrails and a custom Salesforce CRM integration.
-
-This project tackles the challenge of building a healthcare-facing AI agent that stays useful and 
-natural in conversation while never crossing into unsafe territory — no diagnosis, no medical 
-advice, and automatic redirection to emergency care when a genuine dental emergency is detected. 
-On the backend, it demonstrates root-cause debugging of a real-world CRM integration failure, 
-moving from a broken no-code connector to a working custom OAuth flow.
-
-`TARS` `AI Agent` `Conversational AI` `Salesforce API` `OAuth 2.0` `Lead Scoring` `Guardrails`
-
----
-
 ## 🖥️ Live Agent
 
 > Natural-language patient intake with silent lead classification, deployed as a conversational agent.
